@@ -36,7 +36,10 @@
 ehthumbs.db
 Thumbs.db
 
-# IntelliJ & Eclipse generated File#
 ########################
+<<<<<<< HEAD
 idea.*
 eclipse.*
+=======
+idea.*
+>>>>>>> parent of 4334700... adding intelliJ and eclipse to gitignore
