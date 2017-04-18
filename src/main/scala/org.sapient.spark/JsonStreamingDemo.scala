@@ -10,9 +10,6 @@ import org.apache.spark.{SparkConf, SparkContext}
   * Created by Pavithran on 09/04/17.
   */
 
-case class Person(id: Int, firstName: String, lastName: String, eMail: String, gender: String, ipAddress: String) {
-
-}
 
 object JsonStreamingDemo {
 

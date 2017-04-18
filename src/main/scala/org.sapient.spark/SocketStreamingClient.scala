@@ -19,7 +19,6 @@ object SocketStreamingClient {
     sparkConf.set("spark.driver.allowMultipleContexts", "true")
     val sparkContext = new SparkContext(sparkConf)
 
-
     val sparkStreamingContext = new StreamingContext(sparkContext, Seconds(5))
     val lines = sparkStreamingContext.socketTextStream("localhost", 9999)
 
