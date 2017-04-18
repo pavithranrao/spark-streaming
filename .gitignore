@@ -36,5 +36,7 @@
 ehthumbs.db
 Thumbs.db
 
+# IntelliJ & Eclipse generated File#
 ########################
 idea.*
+eclipse.*
